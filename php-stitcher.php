@@ -18,11 +18,11 @@ foreach ($dir as $fileinfo) {
   	continue;
   }
 
-  if ($fileinfo->getExtension() != 'jpg') {
+  if (strtolower($fileinfo->getExtension()) != 'jpg') {
   	continue;
   }
 
-  $filename = $fileinfo->getBasename('.jpg');
+  $filename = pathinfo($fileinfo->getFilename(), PATHINFO_FILENAME);
 
   if (file_exists(TEMP_FILE)) {
     print "Removing existing temporary file...\r\n";
