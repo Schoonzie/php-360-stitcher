@@ -39,7 +39,7 @@ foreach ($dir as $fileinfo) {
 
   $tmpfile1 = $stitched_filename . '0000.tif';
   $tmpfile2 = $stitched_filename . '0001.tif';
-  $stitched_filename .= '.tif';
+  $stitched_filename .= '.jpg';
 
   // Initial 10 second sleep.
   while(

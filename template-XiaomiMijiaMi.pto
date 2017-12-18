@@ -341,7 +341,7 @@ k i1 t0 p"3502 850 3529 2554 3282 1769"
 #hugin_outputHDRLayers false
 #hugin_outputHDRStacks false
 #hugin_outputLayersCompression LZW
-#hugin_outputImageType tif
+#hugin_outputImageType jpg
 #hugin_outputImageTypeCompression LZW
 #hugin_outputJPEGQuality 100
 #hugin_outputImageTypeHDR tif
